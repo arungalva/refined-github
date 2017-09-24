@@ -200,6 +200,10 @@ a .commit-ref:hover span {
 .file-navigation a[href*="/upload/"] {
 	display: none !important;
 }
+.BtnGroup-form[action$="new/master"]:hover .BtnGroup-item {
+	margin-right: -1px; /* Overlap buttons to make up for missing Upload */
+	z-index: 1;
+}
 
 /* Style for edit README button */
 #readme.blob #refined-github-readme-buttons {
